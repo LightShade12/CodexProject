@@ -11,7 +11,7 @@ function App() {
     // useEffect hook runs after the component renders
     const fetchMessage = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/message"); // Make the fetch request to your backend
+        const response = await fetch("https://codexproject-k7m5.onrender.com/api/message"); // Make the fetch request to your backend
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`); // Handle potential errors
         }
