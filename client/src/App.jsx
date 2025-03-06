@@ -5,8 +5,13 @@ import "./components/StarterContent.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import StarterContent from "./components/StarterContent.jsx";
 //===============================================================
-
-const SERVER_ADDR = "http://localhost:3000";
+/*
+TODO: forgor 💀
+*/
+var deploy = true;
+const SERVER_ADDR = deploy
+  ? "https://codexproject-k7m5.onrender.com"
+  : "http://localhost:3000";
 
 function App() {
   const [message, setMessage] = useState("default message");
