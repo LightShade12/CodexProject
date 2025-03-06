@@ -1,7 +1,8 @@
 *.docx
 
 # General Node.js / JavaScript (and React) project ignores
-node_modules/           #  *Crucially Important*:  Your project's dependencies
+client/node_modules/           #  *Crucially Important*:  Your project's dependencies
+server/node_modules/           #  *Crucially Important*:  Your project's dependencies
 npm-debug.log*          #  npm log files
 yarn-debug.log*         #  Yarn log files
 yarn-error.log*         #  Yarn error logs
